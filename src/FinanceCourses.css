@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-image:url(assets/back.jpg);
+  background-size: cover;
   color: #ffffff;
   padding: 20px;
   height: 100vh;
@@ -13,7 +14,8 @@
   width: 400px;
   height: 500px;
   flex: 1;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.668);
+  backdrop-filter: 5px;
   display: flex;
   align-items: flex-start; /* Align items to the top */
 }
@@ -28,7 +30,9 @@
   width: 600px;
   flex: 1;
   padding: 20px;
-  background-color: #b35729;
+  background-color: #b35729b8;
+  backdrop-filter: 5px;
+
 }
 
 .text-container h1,
